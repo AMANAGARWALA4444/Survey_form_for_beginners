@@ -1,0 +1,59 @@
+<html>
+<head>
+<title> Survey form </title>
+<body>
+<h1 style="text-align:center;"> Employee Internal Survey Form </h1>
+
+
+<label for="Enter Your Name"> Enter Your Name : </label>
+<input type="text" id="Enter Your Name :" name="Enter Your Name :">
+<br></br>
+
+<label for="Enter Your Department :"> Enter Your Department    : </label>
+<input type="text" id="="Enter Your Department :" name="="Enter Your Department :">
+<br></br>
+
+<label for="Tell something about you :"> Tell something about you : </label>
+<input type="text" id="Tell something about you :" name="Tell something about you :">
+<br></br>
+
+Do you exercise at home?
+<br></br>
+<input type="radio" name="exercise" value="Yes">
+<label for="Yes"> Yes</label>
+<br></br>
+<input type="radio" name="exercise" value="No">
+<label for="No"> No</label>
+</br> </br>
+
+How do you like to read about your favorite topics ?
+<br></br>
+<input type="checkbox" name="Books" value="Books">
+<label for="Books"> Books</label>
+<br></br>
+<input type="checkbox" name="Web"    value="Online resources">
+<label for="Online resources"> Online resources</label>
+<br></br>
+<input type="checkbox" name="Phone" value="Phone apps">
+<label for="Phone apps"> Phone apps</label>
+<br></br>
+<input type="checkbox" name="Magazines" value="Magazine">
+<label for="Magazine"> Magazine</label>
+<br></br>
+
+What type of movies do you like?
+<br></br>
+<label for="Movie Type">Choose a Movie Preference:</label>
+ <select name="Movie Type"  id="Movie Type">
+<option value="COMEDY"> COMEDY </option>
+<option value="ROMANCE"> ROMANCE </option>
+<option value="THRILLER"> THRILLER </option>
+<option value="HORROR"> HORROR </option><option value="AUTO-BIOGRAPHY"> AUTO-BIOGRAPHY </option>
+ </select>
+ <br></br>
+
+<input type=submit value="Submit form">
+
+</body>
+</head>
+<html>
